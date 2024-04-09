@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Tomato']
+
+roboflow:
+  workspace: utm-1wiwp
+  project: tomato-xy0s5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/utm-1wiwp/tomato-xy0s5/dataset/1
